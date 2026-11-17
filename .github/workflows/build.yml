@@ -1,0 +1,14 @@
+MyReminderApp/
+├── .github/
+│   └── workflows/
+│       └── build.yml        <-- 自动化打包的“指令书”
+├── app/
+│   ├── build.gradle.kts     <-- App 构建配置
+│   └── src/main/
+│       ├── AndroidManifest.xml
+│       └── java/com/example/reminder/
+│           ├── MainActivity.kt
+│           └── ReminderService.kt
+├── build.gradle.kts         <-- 项目级构建配置
+├── settings.gradle.kts      <-- 项目设置
+└── gradle.properties        <-- 一个必须的配置文件
